@@ -20,17 +20,17 @@
     <AppXManifest Include="C:\Users\Scott\Documents\GitHub\BodyBasics-HTML\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-01-31T22:28:28.106</Modified>
+      <Modified>2015-01-31T22:49:01.866</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\BodyBasics-HTML\x64\Debug\KinectImageProcessor\KinectImageProcessor.winmd">
       <PackagePath>KinectImageProcessor.winmd</PackagePath>
-      <Modified>2015-01-31T22:22:52.218</Modified>
+      <Modified>2015-01-31T22:48:59.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\BodyBasics-HTML\x64\Debug\KinectImageProcessor\KinectImageProcessor.dll">
       <PackagePath>KinectImageProcessor.dll</PackagePath>
-      <Modified>2015-01-31T22:22:52.312</Modified>
+      <Modified>2015-01-31T22:48:59.985</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\BodyBasics-HTML\css\default.css">
       <PackagePath>css\default.css</PackagePath>
@@ -100,7 +100,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Scott\Documents\GitHub\BodyBasics-HTML\bin\x64\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-01-31T22:28:27.247</Modified>
+      <Modified>2015-01-31T22:49:00.958</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

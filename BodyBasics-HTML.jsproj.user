@@ -2,6 +2,10 @@
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\Scott\AppData\Local\Temp\BodyBasics-HTML_refcache</ReferenceCachePath>
-    <AutoRefresh>true</AutoRefresh>
+    <AutoRefresh>false</AutoRefresh>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <MachineName>208.59.72.231</MachineName>
   </PropertyGroup>
 </Project>
