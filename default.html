@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BodyBasics_HTML</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- Adding some D3 -->
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/x3dom-full.js"></script>
+    <script type="text/javascript" src="js/scatter_plot_3d_demo.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/x3dom.css" />
+
+    <!-- BodyBasics_HTML references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="logo1"><img src="images/kinectlogo.png" alt="Kinect for Windows" height="32" width="81"></div>  
+        <div id="logo2"><img src="images/Status.png" alt="Sensor Logo"></div>
+        <div id="apptext"><p>Body Basics</p></div>
+    </div>
+
+    <div id="canvas_container">
+        <canvas id="mainCanvas" width="512" height="424"></canvas>
+    </div>
+    
+    <!--- D3 Stuff -->
+    <div id="divPlot"></div>
+    <script>
+        d3.select('html').style('height', '100%').style('width', '100%')
+        d3.select('body').style('height', '100%').style('width', '100%')
+        d3.select('#divPlot').style('width', "500px").style('height', "500px")
+        scatterPlot3d(d3.select('#divPlot'));
+    </script>
+
+    <div id="ender">
+        <div id="status"><p id="statustext">Running</p></div>
+    </div>
+</body>
+</html>

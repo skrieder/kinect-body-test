@@ -1,0 +1,2 @@
+C:\Users\Scott\Documents\GitHub\BodyBasics-HTML\BodyBasics-HTML.jsproj;x64
+C:\Users\Scott\Documents\GitHub\KinectImageProcessor\KinectImageProcessor.vcxproj;x64
